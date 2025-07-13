@@ -27,11 +27,8 @@ Note: You need to download the "Example_MultiFunCAUSAL" folder from Github in ad
 ```R
 library(devtools)
 
-# Set working directory to the root of your package
-setwd("E:/MultiFunCAUSAL")
-
-# Build and install the package (optional --preclean for cache cleanup)
-install(preclean = TRUE)
+# install package from GitHub
+devtools::install_github("predictionmodel/MultiFunCAUSAL")
 
 library(MultiFunCAUSAL)
 
